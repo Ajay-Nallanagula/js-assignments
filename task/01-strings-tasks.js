@@ -206,11 +206,7 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-    //for (var i = 0; i < 2; i++) {
-    //    for (var j = 0; j < width; j++) {
-    //        console.log()
-    //    }
-    //}
+    throw new Error('Not implemented');
 }
 
 
@@ -247,7 +243,7 @@ function encodeToRot13(str) {
  *   isString(new String('test')) => true
  */
 function isString(value) {
-    return typeof(value) === "string";
+    throw new Error('Not implemented');
 }
 
 
